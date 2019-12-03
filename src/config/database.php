@@ -9,7 +9,7 @@ class Database {
 
   public $conn;
 
-  public function getConnection () {
+  public function getConnection() {
 
     $this->conn = null;
 
