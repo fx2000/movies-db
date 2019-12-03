@@ -4,8 +4,8 @@ class Database {
  
   private $host     = 'localhost';
   private $db_name  = 'moviesdb';
-  private $username = 'moviesdb';
-  private $password = 'moviesdb';
+  private $username = 'root';
+  private $password = '';
 
   public $conn;
 

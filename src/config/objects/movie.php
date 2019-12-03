@@ -10,8 +10,8 @@ class Movie {
   public $title;
   public $year;
 
-  public function _construct($db) {
-    $this-conn = $db;
+  public function __construct($db) {
+    $this->conn = $db;
   }
 
   // Add a new movie
